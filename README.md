@@ -22,5 +22,6 @@
 
 ## Preview
 
-<img width="1896" height="892" alt="image" src="https://github.com/user-attachments/assets/2f79c721-d562-47b5-848b-61e57792b57e" />
+<img width="1895" height="895" alt="image" src="https://github.com/user-attachments/assets/809d108e-2cf5-4cf4-b898-8dcceb790d4b" />
+
 
