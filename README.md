@@ -22,6 +22,7 @@
 
 ## Preview
 
-<img width="1895" height="895" alt="image" src="https://github.com/user-attachments/assets/809d108e-2cf5-4cf4-b898-8dcceb790d4b" />
+<img width="1896" height="892" alt="Снимок экрана 2026-09-02 165145" src="https://github.com/user-attachments/assets/45430f02-1545-46b8-b9ee-cddbde03ac7a" />
+
 
 
