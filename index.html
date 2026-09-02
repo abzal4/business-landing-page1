@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saltanat Saraiy</title>
+    <meta name="description" content="Saltanat Saraiy — современное event-пространство в Астане для свадеб, корпоративов, конференций, юбилеев и частных мероприятий. Банкетный зал до 400 гостей, летняя терраса, кейтеринг и караоке.">
+    <meta name="keywords" content="Satlanat Saraiy, Салтанат Сарайы, Банкетный зал">
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/monsterrat.css">
+    <link rel="stylesheet" href="assets/css/forum.css">
+    <link rel="stylesheet" href="assets/css/fancybox.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <a href="index.html" class="header__logo">
+                <img id="header-logo" src="assets/images/logo_light.svg" alt="">
+            </a>
+            <a href="index.html"><img src="assets/images/logo_top.svg"  class="header__top-logo"></img></a>
+            
+            <nav class="header__nav">
+                <div class="header__ornament-top">
+                    <img src="assets/images/ornament_nav.svg" alt="" class="header__nav-image" id="header__nav-image">
+                </div>
+                <ul class="header__list1">
+                    <li class="header__list-item">
+                        <a href="#about" class="header__list-link">О комплексе</a>
+                    </li>
+                    <li class="header__list-item">
+                        <a href="#area--blue" class="header__list-link">Площадки</a>
+                    </li>
+                </ul>
+                <ul class="header__list2">
+                    <li class="header__list-item">
+                        <a href="#gallery" class="header__list-link">Галерея</a>
+                    </li>
+                    <li class="header__list-item">
+                        <a href="#contacts" class="header__list-link">Контакты</a>
+                    </li>
+                </ul>
+                <div class="header__ornament-bottom">
+                    <img src="assets/images/ornament_nav.svg" alt="" class="header_nav-image">
+                </div>
+            </nav>
+            
+            <button class="header__burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        
+        <section class="hero">
+            <video class="hero__video" autoplay muted loop playsinline>
+                <source src="assets/video/video.mp4" type="video/mp4">
+            </video>
+            <div class="hero__overlay hero__overlay_dark"></div>
+            <div class="hero__overlay hero__overlay_light"></div>
+            <div class="hero__overlay hero__overlay_full"></div>
+            <div class="hero__overlay hero__overlay_mobile"></div>
+            
+            <div class="hero__container">
+                <div class="hero__content">
+                    <div class="hero__text">
+                        <h1 class="hero__title">Комплекс премиальных пространств для ваших событий в Астане от Дворца Приемов "Салтанат Сарайы"</h1>
+                    </div>
+                    <div class="hero__bottom-container">
+                        <ul class="hero__desc">
+                            <li>банкетный зал</li>
+                            <li>летняя терраса</li>
+                            <li>AUA Shatyr</li>
+                            <li>приватное караоке</li>
+                            <li>премиальный кейтеринг</li>
+                        </ul>
+                        <div class="hero__buttons">
+                            <button class="button button--outline button-modal button-modal">Забронировать дату</button>
+                            <button class="button button--filled button-modal button-modal">Узнать стоимость <img src="assets/images/arrow_right.svg" alt="arrow_right" class="button_arrow"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="modal" id="modal">
+            <div class="modal__container">
+                <div class="modal__body">
+                        <h3 class="request__title">Оставить Заявку</h3>
+                        <div class="modal__close">
+                            &times;
+                        </div>
+                        <form action="thanks.html" class="request__form" method="post">
+                            <div class="request__data">
+                                <input class="request__name" type="text" name="name" placeholder="Имя" required >
+                                <input class="request__number" type="tel" name="phone" id = "phone" placeholder="+7 (___) ___-__-_-" required >
+                            </div>
+                            <button class="button request__button" type="submit">Отправить <img src="assets/images/arrow_right_white.svg" alt="arrow_right" class="button__arrow"></button>
+                        </form>
+                    </div>
+            </div>
+        </div>
+        <section class="advantages">
+            <div class="advantages__container">
+                <h2 class="advantages__title">Почему выбирают нас</h2>
+                 <div class="advantages__list">
+                    <div class="advantages__item">
+                        <img src="assets/images/advantage_1.png" alt="" class="advantages__image">
+                        <div class="advantages__content">
+                            <h5 class="advantages__item-title">Масштаб и гибкость</h5>
+                            <h5 class="advantages__item-desc">Площадки под любые задачи: от уютной беседки на 8 человек до гала-зала на 400 гостей.</h5>
+                        </div>
+                    </div>
+                    <div class="advantages__item">
+                        <img src="assets/images/advantage_2.png" alt="" class="advantages__image">
+                        <div class="advantages__content">
+                            <h5 class="advantages__item-title">Кухня и сервис</h5>
+                            <h5 class="advantages__item-desc">Профессиональная команда поваров, премиальный ресторанный сервис и менеджмент мероприятий под ключ.</h5>
+                        </div>
+                    </div>
+                    <div class="advantages__item">
+                        <img src="assets/images/advantage_3.png" alt="" class="advantages__image">
+                        <div class="advantages__content">
+                            <h5 class="advantages__item-title">Локация</h5>
+                            <h5 class="advantages__item-desc">Удобное расположение в Астане в сочетании с уединенностью и обилием зелени.</h5>
+                        </div>
+                    </div>
+                    <div class="advantages__item">
+                        <img src="assets/images/advantage_4.png" alt="" class="advantages__image">
+                        <div class="advantages__content">
+                            <h5 class="advantages__item-title">Техническое превосходство</h5>
+                            <h5 class="advantages__item-desc">Современное мультимедийное, световое и звуковое оборудование уже интегрировано в площадки.</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about__container">
+                <div class="about__text">
+                    <h2 class="about__title">О КОМПЛЕКСЕ</h2>
+                    <p class="about__desc">Не просто банкетный зал, а полноценное event-пространство</p>
+                </div>
+                <div class="swiper images__slider about__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a data-fancybox="about1" data-caption="Place #1" href="assets/images/about_1.png" >
+                                <img src="assets/images/about_1.png" alt="" class="about__image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a data-fancybox="about1" data-caption="Place #2" href="assets/images/about_2.png" >
+                                <img src="assets/images/about_2.png" alt="" class="about__image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a data-fancybox="about1" data-caption="Place #3" href="assets/images/about_3.png" >
+                                <img src="assets/images/about_3.png" alt="" class="about__image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a data-fancybox="about1" data-caption="Place #4" href="assets/images/about_4.png" >
+                                <img src="assets/images/about_4.png" alt="" class="about__image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a data-fancybox="about2" data-caption="Place #1" href="assets/images/about_1.png" >
+                                <img src="assets/images/about_1.png" alt="" class="about__image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a data-fancybox="about2" data-caption="Place #2" href="assets/images/about_2.png" >
+                                <img src="assets/images/about_2.png" alt="" class="about__image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a data-fancybox="about2" data-caption="Place #3" href="assets/images/about_3.png" >
+                                <img src="assets/images/about_3.png" alt="" class="about__image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a data-fancybox="about2" data-caption="Place #4" href="assets/images/about_4.png" >
+                                <img src="assets/images/about_4.png" alt="" class="about__image">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section> 
+        <div class="areas-scroll">
+        <section class="areas">
+            <div class="swiper areas__slider">
+                <div class="swiper-wrapper">
+                    <section class="swiper-slide area area--blue" id="area--blue">
+                        <div class="area__container">
+                            <div class="area__content">
+                                <h2 class="area__title">Saltanat Saraiy</h2>
+                                <p class="area__desc">Просторный банкетный зал площадью 1025 м2, легко адаптируемый под любой масштаб: от камерных праздников до статусных форумов.</p>
+                                <div class="area__tags-block">
+                                    <p class="area__tags-title">Подходит для</p>
+                                    <div class="area__tags">
+                                        <p class="area__tag tag_blue">Свадьбы</p>
+                                        <p class="area__tag tag_blue">Юбилеи</p>
+                                        <p class="area__tag tag_blue">Корпоративы</p>
+                                        <p class="area__tag tag_blue">Конференции</p>
+                                        <p class="area__tag tag_blue">Модные показы</p>
+                                        <p class="area__tag tag_blue">Концерты</p>
+                                    </div>
+                                </div>
+                                <div class="area__accordion">
+                                    <div class="area__accordion-title">Сервис под ключ <img src="assets/images/arrow_white_accordion.svg" alt=""></div>
+                                    <ul class = "area__accordion_list">
+                                        <li class="area__accordion-item">— Авторское банкетное меню</li>
+                                        <li class="area__accordion-item">— Личная команда сопровождения</li>
+                                        <li class="area__accordion-item">— Фуршеты</li>
+                                        <li class="area__accordion-item">— Топовое мультимедийное оборудование</li>
+                                        <li class="area__accordion-item">— Гала-ужины</li>
+                                    </ul>
+                                </div>
+                                <div class="area__accordion">
+                                    <div class="area__accordion-title">Стоимость <img src="assets/images/arrow_white_accordion.svg" alt=""></div>
+                                    <ul class = "area__accordion_list">
+                                        <li class="area__accordion-item">- Банкетное меню — от 35 000 ₸ / чел.</li>
+                                        <li class="area__accordion-item">- Барное меню — от 8 000 ₸ / чел.</li>
+                                        <li class="area__accordion-item">- Аренда зала / оборудования — от 1 000 000 ₸.</li>
+                                    </ul>
+                                </div>
+                                <div class="area__buttons buttons--blue">
+                                    <button class="button button--outline button-modal">Забронировать дату</button>
+                                    <button class="button button--filled button-modal">Узнать стоимость <img src="assets/images/arrow_right_blue.svg" alt="arrow_right" class="button_arrow"></button>
+                                </div>
+                            </div>
+                            
+                            <div class="area__image-container">
+                                <img src="assets/images/area_1.png " alt="" class="area__image">
+                                <div class="rectangle rectangle--blue">
+                                    <img src="assets/images/rectangle_ornament_blue.svg" alt="" class="rectangle__image-top">
+                                    <h6 class="rectangle__text">Банкетный зал для камерных и масштабных торжеств</h6>
+                                    <p class="rectangle__guests">до 400 гостей</p>
+                                    <img src="assets/images/rectangle_ornament_blue.svg" alt="" class="rectangle__image-bottom">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="swiper-slide area area--white" id="area--white" >
+                            <div class="area__container">
+                                <div class="area__content">
+                                    <h2 class="area__title">Aua Shatyr</h2>
+                                    <p class="area__desc">Летний шатёр нового формата. Стильное воздушное пространство для незабываемых событий под открытым небом в теплый сезон.</p>
+                                    <div class="area__textblock">
+                                        <p class="area__textblock-title">Формат</p>
+                                        <p class="area__textblock-desc">Идеальное решение для романтичных летних свадеб, презентаций, закрытых премиальных ужинов и корпоративов на свежем воздухе.</p>
+                                    </div>
+                                    <div class="area__buttons">
+                                        <button class="button button--outline button-modal">Забронировать дату</button>
+                                        <button class="button button--filled button-modal">Узнать стоимость <img src="assets/images/arrow_right_white.svg" alt="arrow_right" class="button_arrow"></button>
+                                    </div>
+                                </div>
+                                
+                                <div class="area__image-container">
+                                    <img src="assets/images/area_2.png " alt="" class="area__image">
+                                    <div class="rectangle rectangle--white">
+                                        <img src="assets/images/rectangle_ornament_white.svg" alt="" class="rectangle__image-top">
+                                        <h6 class="rectangle__text">Летний шатёр для атмосферных событий под открытым небом</h6>
+                                        <img src="assets/images/rectangle_ornament_white.svg" alt="" class="rectangle__image-bottom">
+                                    </div>
+                                </div>
+                            </div>
+                    </section>
+                    <section class="swiper-slide area area--black" id="area--black">
+                            <div class="area__container">
+                                <div class="area__content">
+                                    <h2 class="area__title">Night Post Karaoke</h2>
+                                    <p class="area__desc">Караоке-пространство премиум-класса внутри комплекса Saltanat Saraiy. Статус, безупречный звук и абсолютная конфиденциальность.</p>
+                                    <div class="area__tags-block">
+                                        <p class="area__tags-title">Подходит для</p>
+                                        <div class="area__tags">
+                                            <p class="area__tag">Вечерний отдых 21+</p>
+                                            <p class="area__tag">Live vocal</p>
+                                            <p class="area__tag">DJ-сеты</p>
+                                            <p class="area__tag">Тематические вечера</p>
+                                        </div>
+                                    </div>
+                                    <div class="area__accordion">
+                                        <div class="area__accordion-title">Амплитуда комфорта<img src="assets/images/arrow_white_accordion.svg" alt=""></div>
+                                        <ul class = "area__accordion_list">
+                                            <li class="area__accordion-item">- VIP-комната до 12 персон — депозит 200 000 тенге</li>
+                                            <li class="area__accordion-item">- VIP-комната до 30 персон — депозит 500 000 тенге</li>
+                                        </ul>
+                                    </div>
+                                    <div class="area__accordion">
+                                        <div class="area__accordion-title">Залы <img src="assets/images/arrow_white_accordion.svg" alt=""></div>
+                                        <ul class = "area__accordion_list">
+                                            <li class="area__accordion-item">-в будние дни депозит составляет 15 000 тенге на гостя</li>
+                                            <li class="area__accordion-item">- в пятницу и субботу — 20 000 тенге на гостя</li>
+                                        </ul>
+                                    </div> 
+                                    <div class="area__buttons">
+                                        <button class="button button--outline button-modal">Забронировать дату</button>
+                                        <button class="button button--filled button-modal">Узнать стоимость <img src="assets/images/arrow_right.svg" alt="arrow_right" class="button__arrow"></button>
+                                    </div>
+                                </div>
+                                <div class="area__image-container">
+                                    <img src="assets/images/area_3.png " alt="" class="area__image">
+                                    <div class="rectangle rectangle--black">
+                                        <img src="assets/images/rectangle_ornament_black.svg" alt="" class="rectangle__image-top">
+                                        <h6 class="rectangle__text">Приватная атмосфера для вечеров в закрытом кругу</h6>
+                                        <img src="assets/images/rectangle_ornament_black.svg" alt="" class="rectangle__image-bottom">
+                                    </div>
+                                </div>
+                            </div>
+                    </section>
+                    <section class="swiper-slide area area--beige" id="area--beige">
+                            <div class="area__container">
+                                <div class="area__content">
+                                    <h2 class="area__title">Terra.ce / Summer Terrace</h2>
+                                    <p class="area__desc">Атмосфера загородного отдыха в самом центре столицы. Зеленый оазис среди деревьев, наполненный свежим воздухом, тишиной и летним настроением. Идеальная локация для BBQ-встреч, семейных вечеров, open-air событий и вечеринок под живую музыку.</p>
+                                    <div class="area__tags-block">
+                                        <p class="area__tags-title">Подходит для</p>
+                                        <div class="area__tags">
+                                            <p class="area__tag">Семейные ужины</p>
+                                            <p class="area__tag">Дни рождения</p>
+                                            <p class="area__tag">Музыкальные вечера</p>
+                                            <p class="area__tag">Камерные мероприятия</p>
+                                            <p class="area__tag">Корпоративы</p>
+                                            <p class="area__tag">BBQ-встречи</p>
+                                            <p class="area__tag">Open-air </p>
+                                        </div>
+                                    </div>
+                                    <div class="area__accordion">
+                                        <div class="area__accordion-title">Зоны террасы<img src="assets/images/arrow_brown_accordion.svg" alt=""></div>
+                                    <ul class = "area__accordion_list">
+                                            <li class="area__accordion-item">- VIP-зона на террасе до 12 персон — депозит 100 000 ₸</li>
+                                            <li class="area__accordion-item">- Крытая беседка до 35 гостей — депозит 700 000 ₸</li>
+                                            <li class="area__accordion-item">- Крытая беседка до 10 гостей — депозит 150 000 ₸</li>
+                                        </ul>
+                                    </div> 
+                                    <div class="area__accordion">
+                                        <div class="area__accordion-title">Коммерческая информация<img src="assets/images/arrow_brown_accordion.svg" alt=""></div>
+                                        <ul class = "area__accordion_list">
+                                            <li class="area__accordion-item">- Открытая беседка до 10 гостей — депозит 100 000 ₸</li>
+                                        </ul>
+                                    </div>
+                                    
+                                    
+                                    <div class="area__buttons">
+                                        <button class="button button--outline button-modal">Забронировать дату</button>
+                                        <button class="button button--filled button-modal">Узнать стоимость <img src="assets/images/arrow_right_orange.svg" alt="arrow_right" class="button__arrow"></button>
+                                    </div>
+                                </div>
+                                
+                                <div class="area__image-container">
+                                    <img src="assets/images/area_4.png " alt="" class="area__image">
+                                    <div class="rectangle rectangle--beige">
+                                        <img src="assets/images/rectangle_ornament_beige.svg" alt="" class="rectangle__image-top">
+                                        <h6 class="rectangle__text">Летняя терраса среди деревьев для событий</h6>
+                                        <p class="rectangle__guests">до 120 гостей</p>
+                                        <img src="assets/images/rectangle_ornament_beige.svg" alt="" class="rectangle__image-bottom">
+                                    </div>
+                                </div>
+                            </div>
+                    </section>
+                    <section class="swiper-slide area area--cyan" id="area--cyan">
+                            <div class="area__container">
+                                <div class="area__content">
+                                    <h2 class="area__title">Saltanat Saraiy Catering</h2>
+                                    <p class="area__desc">Ресторанное обслуживание высшего уровня на вашей локации. Полный цикл организации выездного обслуживания частных и корпоративных мероприятий: от разработки меню до финальной сервировки и координации персонала.</p>
+                                    <div class="area__tags-block">
+                                        <p class="area__tags-title">Подходит для </p>
+                                        <div class="area__tags">
+                                            <p class="area__tag">Гала-ужины</p>
+                                            <p class="area__tag">Банкеты</p>
+                                            <p class="area__tag">Кофе-брейки</p>
+                                            <p class="area__tag">Семейные мероприятия</p>
+                                            <p class="area__tag">Деловые приемы</p>
+                                            <p class="area__tag">Фуршеты</p>
+                                        </div>
+                                    </div>
+                                    <div class="area__textblock">
+                                            <p class="area__textblock-title">Эксклюзив</p>
+                                            <p class="area__textblock-desc"><b>Бокс-пирамида от Saltanat Saraiy Catering</b> — эстетичный гастрономический подарок и готовый формат для пикников, семейных встреч или корпоративных презентов.</p>
+                                        </div>
+                                    <div class="area__buttons">
+                                        <button class="button button--outline button-modal">Забронировать дату</button>
+                                        <button class="button button--filled button-modal">Узнать стоимость <img src="assets/images/arrow_right_cyan.svg" alt="arrow_right" class="button__arrow"></button>
+                                    </div>
+                                </div>
+                                <div class="area__image-container">
+                                    <img src="assets/images/area_5.png " alt="" class="area__image">
+                                    <div class="rectangle rectangle--cyan">
+                                        <img src="assets/images/rectangle_ornament_cyan.svg" alt="" class="rectangle__image-top">
+                                        <h6 class="rectangle__text">Ресторанный сервис там, где проходит ваше событие</h6>
+                                        <img src="assets/images/rectangle_ornament_cyan.svg" alt="" class="rectangle__image-bottom">
+                                    </div>
+                                </div>
+                            </div>
+                    </section>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section></div>
+        <section class="events" id="events">
+            <div class="events__container">
+                <h2 class="events__title">Для каких мероприятий</h2>
+                <div class="events__list">
+                    <div class="events__item">
+                        <img src="assets/images/events_1.svg" alt="" class="events__image">
+                        <p class="events__item-title">Свадьбы</p>
+                    </div>
+                    <div class="events__item">
+                        <img src="assets/images/events_2.svg" alt="" class="events__image">
+                        <p class="events__item-title">Корпоративы</p>
+                    </div>
+                    <div class="events__item">
+                        <img src="assets/images/events_3.svg" alt="" class="events__image">
+                        <p class="events__item-title">Конференции</p>
+                    </div>
+                    <div class="events__item">
+                        <img src="assets/images/events_4.svg" alt="" class="events__image">
+                        <p class="events__item-title">Юбилеи</p>
+                    </div>
+                    <div class="events__item">
+                        <img src="assets/images/events_5.svg" alt="" class="events__image">
+                        <p class="events__item-title">Выпускные</p>
+                    </div>
+                    <div class="events__item">
+                        <img src="assets/images/events_6.svg" alt="" class="events__image">
+                        <p class="events__item-title">Презентации</p>
+                    </div>
+                    <div class="events__item">
+                        <img src="assets/images/events_7.svg" alt="" class="events__image">
+                        <p class="events__item-title">Форумы</p>
+                    </div>
+                    <div class="events__item">
+                        <img src="assets/images/events_8.svg" alt="" class="events__image">
+                        <p class="events__item-title">Закрытые ужины</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="gallery">
+            <div class="gallery__container">
+                <h2 class="gallery__title">Галерея Атмосферы</h2>
+                <div class="swiper images__slider gallery__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><a data-fancybox="gallery1" data-caption="Place #1" href="assets/images/atmosphere_gallery_1.png"><img src="assets/images/atmosphere_gallery_1.png" alt="" class="gallery__image" loading="eager"></a></div>
+                        <div class="swiper-slide"><a data-fancybox="gallery1" data-caption="Place #2" href="assets/images/atmosphere_gallery_2.png"><img src="assets/images/atmosphere_gallery_2.png" alt="" class="gallery__image" loading="eager"></a></div>
+                        <div class="swiper-slide"><a data-fancybox="gallery1" data-caption="Place #3" href="assets/images/atmosphere_gallery_3.png"><img src="assets/images/atmosphere_gallery_3.png" alt="" class="gallery__image" loading="eager"></a></div>
+                        <div class="swiper-slide"><a data-fancybox="gallery1" data-caption="Place #4" href="assets/images/atmosphere_gallery_4.png"><img src="assets/images/atmosphere_gallery_4.png" alt="" class="gallery__image" loading="eager"></a></div>
+                        <div class="swiper-slide"><a data-fancybox="gallery2" data-caption="Place #1" href="assets/images/atmosphere_gallery_1.png"><img src="assets/images/atmosphere_gallery_1.png" alt="" class="gallery__image" loading="eager"></a></div>
+                        <div class="swiper-slide"><a data-fancybox="gallery2" data-caption="Place #2" href="assets/images/atmosphere_gallery_2.png"><img src="assets/images/atmosphere_gallery_2.png" alt="" class="gallery__image" loading="eager"></a></div>
+                        <div class="swiper-slide"><a data-fancybox="gallery2" data-caption="Place #3" href="assets/images/atmosphere_gallery_3.png"><img src="assets/images/atmosphere_gallery_3.png" alt="" class="gallery__image" loading="eager"></a></div>
+                        <div class="swiper-slide"><a data-fancybox="gallery2" data-caption="Place #4" href="assets/images/atmosphere_gallery_4.png"><img src="assets/images/atmosphere_gallery_4.png" alt="" class="gallery__image" loading="eager"></a></div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <div class="contacts__container">
+                <div class="contacts__contacts">
+                    <div class="contacts__text">
+                        <h2 class="contacts__title">Контакты</h2>
+                        <p class="contacts__desc">Мы готовы помочь подобрать площадку, обсудить формат мероприятия и ответить на ваши вопросы. </p>
+                    </div>
+                    <div class="contacts__messangers">
+                        <a href="" class="instagram_icon">
+                            <img src="assets/images/instagram.svg" alt="" class="contacts__messanger">
+                        </a>
+                        <a href="" class="messanger_icon">
+                            <img src="assets/images/messanger.svg" alt="" class="contacts__messanger">
+                        </a>
+                    </div>
+                    <ul class="info__list">
+                        <li class="info__item">
+                            <p class="info__item-title">ТЕЛЕФОН</p>
+                            <a class="info__item-text">+7 (700) 000 00 00</a>
+                        </li>
+                        <li class="info__item">
+                            <a class="info__item-title">Email</a>
+                            <a class="info__item-text">saltanatsaraiy@gmail.com</a>
+                        </li>
+                        <li class="info__item">
+                            <a class="info__item-title">АДРЕС</a>
+                            <a class="info__item-text">г. Астана, Кабанбай батыра, 3</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="request__container">
+                    <div class="leave__request">
+                        <h3 class="request__title">Оставить Заявку</h3>
+                        <form action="thanks.html" class="request__form" method="post">
+                            <div class="request__data">
+                                <input class="request__name" type="text" name="name" placeholder="Имя" required >
+                                <input class="request__number" type="tel" name="phone" id = "phone" placeholder="+7 (___) ___-__-_-" required >
+                            </div>
+                            <button class="button request__button" type="submit">Отправить <img src="assets/images/arrow_right_white.svg" alt="arrow_right" class="button__arrow"></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="contacts__map-container">
+                <div class="contacts__map-text">
+                    <h3 class="contacts__map-title">Как нас найти</h3>
+                    <p class="contacts__map-desc">Комплекс расположен в удобной части города, с собственной парковкой для гостей.</p>
+                </div>
+                <iframe class="map" id="map_248122564" frameborder="0" width="100%" height="600px" src="https://makemap.2gis.ru/widget?data=eJw1kM1ugzAQhN_FPQZFBuOCuSFQfioShVRVSqscULyllhyMbNMkjfLuNaD6stbO7KedvSOlOWjgS1BnsFqAQcnnHdlbByhBC6htrwF5qNOqA21H3cnCykF_CxaGLxd99V427n-rDpI6Mwdz0qKzQrXOtFulM1xs-vU2K3G12jc2u-CClCa7NPhFl2abXXGRlz98qv1rXhruPFWxF2yZ4iI163wTFySdOfhJSaUd9gkHsf8VuM7vuuVwRYmP_9_DQ80U6DauO6XZKdHakeBCi7a2Y9jIn4cBITH1qD_3QxZH5OjmBR-AhDyOHjrX3U4ZMeW5I1lblIzmiGFGGcU4ZL6H5CAPOBrHNHyOaMACFrv9lDo7GHFUdxcl5eEbQH6MXat7ePwBvZl3jg" sandbox="allow-modals allow-forms allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>
+
+
+
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer_container">
+            <img src="assets/images/logo.svg" alt="" class="footer_logo">
+            <div class="footer_lists">
+                <ul class="footer_navigation_list">
+                    <p class="footer_list_title">Навигация</p>
+                    <li class="footer_list_item">
+                        <a class="footer_list_item_text" href="#about">О комплексе</a>
+                    </li>
+                    <li class="footer_list_item">
+                        <a class="footer_list_item_text" href="#areas">Площадки</a>
+                    </li>
+                    <li class="footer_list_item">
+                        <a class="footer_list_item_text" href="#events">Для каких мероприятий</a>
+                    </li>
+                    <li class="footer_list_item">
+                        <a class="footer_list_item_text" href="#gallery">Галерея</a>
+                    </li>
+                    <li class="footer_list_item">
+                        <a class="footer_list_item_text" href="#contacts">Контакты</a>
+                    </li>
+                </ul>
+
+                <ul class="footer_areas_list">
+                    <p class="footer_list_title">Площадки</p>
+                    <li class="footer_list_item">
+                        <a class="footer_list_item_text" href="#area--blue">Saltanat Saraiy</a>
+                    </li>
+                    <li class="footer_list_item">
+                        <a class="footer_list_item_text" href="#area--white" >Aua Shatyr</a>
+                    </li>
+                    <li class="footer_list_item">
+                        <a class="footer_list_item_text" href="#area--black">Night Post Karaoke</a>
+                    </li>
+                    <li class="footer_list_item">
+                        <a class="footer_list_item_text" href="#area--beige">Terra.ce / Summer Terrace</a>
+                    </li>
+                    <li class="footer_list_item">
+                        <a class="footer_list_item_text" href="#area--cyan">Saltanat Saraiy Catering</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>©2026 Saltanat Saraiy. Все права защищены.</p>
+            <img src="assets/images/Сделано в factum.svg" alt="">
+        </div>
+        <script src="assets/js/script.js" defer></script>
+        <script src="assets/js/fancybox.umd.js"></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/gsap.min.js"></script>
+        <script src="assets/js/ScrollTrigger.min.js"></script>
+        <script src="assets/js/imask.js"></script>
+    </footer>
+</html>
